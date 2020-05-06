@@ -1,7 +1,7 @@
-li {
+ol {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: none;
 }
 
 .label {
@@ -16,4 +16,62 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+
+
+#newlyAdded {
+  float: left;
+  background-color: chartreuse;
+  width: 40%;
+ 
+  text-align: left;
+  padding-left: 15px;
+  clear: both;
+}
+
+#eaten {
+  background-color: brown;
+  float: left;
+  width: 40%;
+  padding-left: 15px;
+  clear: both;
+}
+
+.box::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+  margin-top: 0px;
+  color: lawngreen;
+}
+
+h2 {
+  text-align: center;
+}
+
+#formDiv {
+  width: 100%;
+  background-color: darkcyan;
+  float: left;
+}
+
+img {
+  width: 15%;
+  height: 15%;
+  align-items: center;
+
+}
+
+.container{
+  align-items: center;
 }
