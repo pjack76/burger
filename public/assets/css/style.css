@@ -6,6 +6,7 @@ ol {
 
 .label {
   font-weight: bold;
+  
 }
 
 .create-update-form {
@@ -18,60 +19,100 @@ ol {
   margin-bottom: 5px;
 }
 
-body {
-  background-color: blueviolet;
+
+#nameLabel {
+  margin-left: 1.5%;
 }
 
+body {
+  background-color: whitesmoke;
+}
 
 
 #newlyAdded {
+  position: relative;
+  width: 48%;
   float: left;
-  background-color: chartreuse;
-  width: 40%;
- 
-  text-align: left;
+  margin-right: 20px;
   padding-left: 15px;
-  clear: both;
+  height: 25%;
 }
 
 #eaten {
-  background-color: brown;
   float: left;
-  width: 40%;
+  width: 48%;
   padding-left: 15px;
-  clear: both;
-}
-
-.box::after{
-  content: "";
-  display: block;
-  clear: both;
+  height: 25%;
+  position: relative;
 }
 
 h1 {
   text-align: center;
-  font-size: 72px;
+  font-size: 125px;
   margin-top: 0px;
-  color: lawngreen;
-}
-
-h2 {
-  text-align: center;
+  color: blueviolet;
+  font-family: Brush Script MT;
+  font-weight: bolder;
 }
 
 #formDiv {
   width: 100%;
-  background-color: darkcyan;
   float: left;
+  clear: both;
 }
 
 img {
-  width: 15%;
-  height: 15%;
-  align-items: center;
-
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin: 0 auto;
 }
 
-.container{
-  align-items: center;
+h3 {
+  margin-left: 10%;
+  color: rgba(133, 15, 15, 0.904);
+}
+
+#addBtn {
+  margin-left: 12.5%;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+  color: goldenrod;
+}
+
+.delete-burger {
+  border-radius: 10%;
+  opacity: 0;
+  font-size: 10px;
+  padding: 1px;
+  color: rgba(232, 241, 104, 0.911);
+  background-color: firebrick;
+}
+
+.delete-burger:hover {
+  border-radius: 10%;
+  opacity: 1;
+  font-size: 10px;
+  padding: 1px;
+  color: rgba(232, 241, 104, 0.911);
+  background-color: firebrick;
+}
+
+.change-devoured {
+  border-radius: 10%;
+  font-size: 10px;
+  padding: 1px;
+  text-align: center;
+  color: blueviolet;
+  background-color: deepskyblue;
+}
+
+#eat-ready {
+  text-align: left;
+  color: blue;
+}
+
+#ate {
+  text-align: left;
+  color: red;
 }

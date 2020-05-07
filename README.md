@@ -1,1 +1,3 @@
 # burger
+
+the user adds a burger using a form.  the name of the burger and the status of the burger is added to mysql database. the information in the database is displayed on html page using GET method. next to the name of each burger is a button for changing the status of the each burger from not eaten to eaten.  each burger starts with status of not eaten. the status is updated using the PUT method.  once clicked, the burger is moved to the "Devoured" column. in case the "Devoured" column gets too cluttered and long, there is a hidden delete button next to each "Devoured" burger.  the project does not require this button. i just put one there so i can remove the burgers.  all burgers entered are persistened in the database, unless deleted.
